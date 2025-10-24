@@ -1,10 +1,11 @@
 import React from "react";
+import NavBar from "./components/navbar/Navbar";
 
-import Navbar from './components/Navbar/Navbar.jsx';
+
 
 const App =() =>{
   return <div>
-    <Navbar />
+    <NavBar />
   </div>;
 };
 
