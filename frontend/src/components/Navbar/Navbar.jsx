@@ -21,30 +21,25 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <li className="nav-item mx-2">
+              <a className="nav-link active " aria-current="page" href="#">Home</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <a className="nav-link" href="#">About Us</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
+              <a className="nav-link" href="#">Todo</a>
+            </li>
+            <li className="nav-item btn-nav mx-2">
               <a className="nav-link" href="#">SignUp</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item btn-nav mx-2" >
               <a className="nav-link" href="#">SignIn</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item btn-nav mx-2">
               <a className="nav-link" href="#">Log Out</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <img
-                  className="img-fluid user-png"
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
-                  alt="User Icon"
-                />
-              </a>
-            </li>
+           
           </ul>
         </div>
       </div>
